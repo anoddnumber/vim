@@ -7,3 +7,4 @@ set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:< " Set different charac
 set list " Make the characters actually look different
 
 map <C-Y> cws<Esc>j" Maps Control + Y to change the word to an 's' and moves to the next line. This is useful when squashing commits in git.
+map <C-K> i#<Esc>j" Maps Control + K to insert a # (a comment in some languages) and moves to the next line.
