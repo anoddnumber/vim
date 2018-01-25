@@ -6,4 +6,4 @@ set shiftwidth=4 " control how many columns text is indented with the reindent o
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:< " Set different characters to look like something else
 set list " Make the characters actually look different
 
-map <C-Y> cws<Esc>j " Maps Control + Y to change the word to an 's' and moves to the next line. This is useful when squashing commits in git.
+map <C-Y> cws<Esc>j" Maps Control + Y to change the word to an 's' and moves to the next line. This is useful when squashing commits in git.
