@@ -9,4 +9,7 @@ set list " Make the characters actually look different
 map <C-Y> cws<Esc>j" Maps Control + Y to change the word to an 's' and moves to the next line. This is useful when squashing commits in git.
 map <C-K> i#<Esc>j" Maps Control + K to insert a # (a comment in some languages) and moves to the next line.
 map <C-S> <Nop>" Map Control + S to nothing. Control + S normally blocks any additional input
-map <C-W> o<CR><Tab>}<Esc>ki<Tab><Tab>" Maps Control + W to create the ending curly brace for java functions
+
+"Maps Control + W to create the ending curly brace for java functions - note: this comment is on a different line because if it is put on the same line, it will be printed out as the 'i' puts vim into insert mode and won't see the double quotes as a comment
+map <C-W> o<CR><Tab>}<Esc>ki<Tab><Tab> 
+
